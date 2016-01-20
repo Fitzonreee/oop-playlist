@@ -3,8 +3,12 @@ var playlist = new Playlist();
 var BrendasGotaBaby = new Song("Brenda's Got a Baby", "Tupac", "3:55" );
 var stillDRE = new Song("Still D.R.E. ft Snoop Dogg", "Dr.Dre", "4:51" );
 
+var manOfSteel = new Movie("Man of Steel", 2013, "2:23:00");
+
 playlist.add(BrendasGotaBaby);
 playlist.add(stillDRE);
+
+playlist.add(manOfSteel);
 
 var playlistElement = document.getElementById("playlist");
 
